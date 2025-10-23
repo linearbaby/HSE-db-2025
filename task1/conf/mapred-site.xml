@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configuration>
+  <property><name>mapreduce.framework.name</name><value>yarn</value></property>
+  <property><name>yarn.app.mapreduce.am.env</name><value>HADOOP_MAPRED_HOME=$HADOOP_HOME,PATH=$UV_PYTHON_VENV_PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin,VIRTUAL_ENV=$UV_MANAGED_VENV</value></property>
+  <property><name>mapreduce.map.env</name><value>HADOOP_MAPRED_HOME=$HADOOP_HOME,PATH=$UV_PYTHON_VENV_PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin,VIRTUAL_ENV=$UV_MANAGED_VENV</value></property>
+  <property><name>mapreduce.reduce.env</name><value>HADOOP_MAPRED_HOME=$HADOOP_HOME,PATH=$UV_PYTHON_VENV_PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin,VIRTUAL_ENV=$UV_MANAGED_VENV</value></property>
+</configuration>
